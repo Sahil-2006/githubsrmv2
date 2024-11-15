@@ -117,7 +117,7 @@ const Events = () => {
                     backgroundAttachment: "fixed"
                 }}
             >
-                <div className="bg-black/40 -top-8 lg:top-0 lg:p-8 md:p-12 lg:px-16 lg:py-24 flex justify-center items-center relative">
+                <div className="bg-black/40 -top-8 lg:top-0 lg:p-8 md:p-12 lg:px-16 lg:py-24 flex justify-center items-center">
                     <div className="mt-10 relative z-10">
                         {eventData &&
                             eventData.filter((event) => event.is_active).length >
